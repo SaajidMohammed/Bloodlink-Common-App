@@ -1,16 +1,31 @@
-# React + Vite
+# 🩸 BloodLink Common
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **BloodLink Common** project is the public-facing portfolio and landing page for the BloodLink ecosystem. It serves to inform users, hospitals, and the general public about our mission, and acts as a central hub leading to the respective web and mobile portals.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Modern Design:** Built with Tailwind CSS v4, featuring a sleek, glassmorphic UI, smooth micro-animations using Framer Motion.
+* **Responsive Layout:** fully optimized for desktops, tablets, and mobile devices with a custom hamburger menu.
+* **Dark Mode Mastery:** Incorporates a globally persistent `ThemeContext` backed by `localStorage` that seamlessly toggles the interface between Light and Dark modes.
+* **Support Pages:** Includes comprehensive pages for Help Center, Contact Us, Privacy Policy, and Terms of Service.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React 18
+* Vite
+* React Router DOM
+* Tailwind CSS v4
+* Framer Motion
+* Lucide React (Icons)
 
-## Expanding the ESLint configuration
+## 🏃‍♂️ Running Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Start the dev server:**
+   ```bash
+   npm run dev
+   ```
+3. Open `http://localhost:5173` in your browser.
